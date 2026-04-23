@@ -96,8 +96,13 @@ The integration creates native Home Assistant calendar entities:
 - If Rentlio does not provide a nominal channel commission, the integration falls back to calculating the commission from the percentage on the accommodation total.
 - Calendar events use the booking channel as the event title.
 
-## Support
-Use the GitHub issue tracker for bug reports and feature requests.
-
 ## Disclaimer
 This project is an independent Home Assistant custom integration and is not affiliated with or endorsed by Rentlio.
+
+## ☕ Support
+
+If this project is useful to you or improved your Home Assistant setup, you can support it here:
+
+[Donate with Bitcoin / Crypto](./DONATE.md)
+
+[Ko-fi / Buy me a coffee](https://ko-fi.com/marcovolt18)
