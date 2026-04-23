@@ -1,0 +1,45 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Rentlio Overview",
+        "description": "Connect your Rentlio account and configure polling.",
+        "data": {
+          "api_key": "API key",
+          "scan_interval": "Scan interval (seconds)",
+          "lookback_days": "Lookback days",
+          "lookahead_days": "Lookahead days"
+        }
+      },
+      "property": {
+        "title": "Select property",
+        "description": "Choose which property to import.",
+        "data": {
+          "property_id": "Property"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_property_id": "Invalid property",
+      "no_properties": "No properties found for this API key",
+      "unknown": "Unexpected error"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Rentlio Overview options",
+        "data": {
+          "property_id": "Property ID",
+          "scan_interval": "Scan interval (seconds)",
+          "lookback_days": "Lookback days",
+          "lookahead_days": "Lookahead days"
+        }
+      }
+    },
+    "error": {
+      "invalid_property_id": "Invalid property"
+    }
+  }
+}
