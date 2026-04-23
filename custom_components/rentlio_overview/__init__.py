@@ -19,9 +19,6 @@ from .const import (
 from .coordinator import RentlioCoordinator
 
 
-async def async_setup(hass: HomeAssistant, config: dict) -> bool:
-    return True
-
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     api = RentlioApiClient(entry.data[CONF_API_KEY])

@@ -1,17 +1,13 @@
 {
   "domain": "rentlio_overview",
   "name": "Rentlio Overview",
-  "version": "1.1.6",
+  "codeowners": ["@marcovolt"],
   "config_flow": true,
-  "integration_type": "service",
   "documentation": "https://github.com/marcovolt/homeassistant-rentlio-overview",
-  "issue_tracker": "https://github.com/marcovolt/homeassistant-rentlio-overview/issues",
-  "requirements": [],
-  "codeowners": [
-    "@marcovolt"
-  ],
+  "integration_type": "hub",
   "iot_class": "cloud_polling",
-  "loggers": [
-    "custom_components.rentlio_overview"
-  ]
+  "issue_tracker": "https://github.com/marcovolt/homeassistant-rentlio-overview/issues",
+  "loggers": ["custom_components.rentlio_overview"],
+  "requirements": [],
+  "version": "1.1.6"
 }
